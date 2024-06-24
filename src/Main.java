@@ -16,8 +16,8 @@ public class Main {
         String input = sc.nextLine();
         System.out.println();
 
-        for(char i : input.toCharArray()){
-            System.out.print(i + " ");
+        for(char c : input.toCharArray()){
+            System.out.print(c + " ");
         }
     }
 }
